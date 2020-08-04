@@ -156,36 +156,5 @@ function alertNotification(alertType) {
 }
 
 
-// Disable keyboard entry:
-document.onkeydown = function (e) {
-  return false;
-};
-
-
 // main page display none
 document.getElementById('notifyDisplay', alertNotification('clearNotification'));
-
-
-
-
-
-
-// function allAlert(successId, successValue, failedId, failedValue) {
-//   document.getElementById(successId).style.display = successValue;
-//   document.getElementById(failedId).style.display = failedValue;
-// }
-
-// function successAlert() {
-//   document.getElementById('matched').style.display = 'block';
-//   document.getElementById('unmatched').style.display = 'none';
-// }
-
-// function failedAlert() {
-//   document.getElementById('matched').style.display = 'none';
-//   document.getElementById('unmatched').style.display = 'block';
-// }
-
-// function removeAlert() {
-//   document.getElementById('matched').style.display = 'none';
-//   document.getElementById('unmatched').style.display = 'none';
-// }
